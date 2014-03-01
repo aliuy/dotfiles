@@ -1,3 +1,11 @@
+# Turn off the annoying startup message
 startup_message off
 
-screen -t blank 1
+# Start with 1 instead of 0
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+
+# Start a screen right away
+screen -t home 1
+
