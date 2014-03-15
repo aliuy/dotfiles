@@ -31,7 +31,6 @@
   set showmatch             " Show matching brackets.
   set softtabstop=4         " Why are tabs so big?  This fixes it
   set textwidth=0           " Don't wrap words by default
-  set textwidth=120         " This wraps a line with a break when you reach 120 chars
   set virtualedit=block     " let blocks be in virutal edit mode
   set wildmenu              " This is used with wildmode(full) to cycle options
 
