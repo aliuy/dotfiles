@@ -7,4 +7,5 @@ function installRc {
 installRc 'bashrc'
 installRc 'screenrc'
 installRc 'vimrc'
+./gitconfig.sh
 
