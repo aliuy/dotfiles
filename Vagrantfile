@@ -67,6 +67,6 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", inline: <<-SHELL
 	sudo apt-get update -y
 	sudo apt-get upgrade -y
-	sudo apt-get install -y ubuntu-desktop virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 vim screen git nodejs npm chromium-browser
+	sudo apt-get install -y ubuntu-desktop virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 vim screen git curl nodejs npm chromium-browser
   SHELL
 end
