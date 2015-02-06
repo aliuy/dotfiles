@@ -65,9 +65,8 @@ Vagrant.configure(2) do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
-	sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 	sudo apt-get update -y
 	sudo apt-get upgrade -y
-	sudo apt-get install -y ubuntu-desktop virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 vim screen git nodejs npm sublime-text-installer chromium-browser
+	sudo apt-get install -y ubuntu-desktop virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 vim screen git nodejs npm chromium-browser
   SHELL
 end
