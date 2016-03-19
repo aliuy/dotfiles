@@ -1,6 +1,6 @@
 # Reinstall Node using NodeSource repository
 sudo apt-get remove -y nodejs npm
-curl -sL https://deb.nodesource.com/setup | sudo bash -
+curl -sL https://deb.nodesource.com/setup_4.x | sudo bash -
 sudo apt-get install -y nodejs
 
 # Install Sublime Text 3 from WebUpd8 PPA
